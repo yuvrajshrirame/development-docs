@@ -23,89 +23,89 @@
 ## Clear Console
 
 ```sql
-system cls;
+SYSTEM CLS;
 ```
 
 ## Listing Existing Databases
 
 ```sql
-show databases;
+SHOW DATABASES;
 ```
 
 ## Creating Database
 
 ```sql
-create database DB_Name;
+CREATE DATABASE DB_NAME;
 ```
 
 ## Selecting Database (For Performing Operations within it)
 
 ```sql
-use DB_Name;
+USE DB_NAME;
 ```
 
 ## Deleting Database
 
 ```sql
-drop database DB_Name;
+DROP DATABASE DB_NAME;
 ```
 
 ## Creating Tables
 
 ```sql
-create table table_name (col_1 varchar(100), col_2 integer);
+CREATE TABLE TABLE_NAME (COL_1 VARCHAR(100), COL_2 INTEGER);
 ```
 
 Ex:
 
 ```sql
-create table table_name (Name varchar(100), Rating integer);
+CREATE TABLE PRODUCT (Name VARCHAR(100), Rating INTEGER);
 ```
 
 ## Adding/Inserting Data into Tables
 
 ```sql
-insert into table_name (col_1, col_1) values ("Value1", 9);
+INSERT INTO TABLE_NAME (COL_1, COL_2) VALUES ("VALUE1", "VALUE2");
 ```
 
 Ex:
 
 ```sql
-insert into table_name (Name, Rating) values ("Avengers Endgame", 5);
+INSERT INTO TABLE_NAME (Name, Rating) VALUES ("Avengers Endgame", 5);
 ```
 
 ## Listing Tables in a Database
 
 ```sql
-show tables;
+SHOW TABLES;
 ```
 
 ## Listing Table Content
 
 ```sql
-select col_name1, col_name2 from table_name;
-// To select all the columns, we use asterisk (*)
-select * from table_name;
+SELECT COL_1, COL_2 FROM TABLE_NAME;
+/* To select all the columns, we use asterisk (*) */
+SELECT * FROM TABLE_NAME;
 ```
 
 Ex:
 
 ```sql
-select name, rating from movies_db;
-// OR we can use (*) to select all the columns
-select * from movies_db;
+SELECT Name, Rating FROM movies_db;
+/* OR we can use (*) to select all the columns */
+SELECT * FROM movies_db;
 ```
 
 ## Adding Multiple Items into Table at Once
 
 ```sql
-insert into table_name (col_1, col_2) values (val1, val2), (val3, val4), (val5, val6);
+INSERT INTO TABLE_NAME (COL_1, COL_2) VALUES (VALUE1, VALUE2), (VALUE3, VALUE4), (VALUE5, VALUE6);
 ```
 
 Ex:
 
 ```sql
-insert into moviesTable (Name, Actor) values ("Iron Man", "Downey JR"), ("Thor", "Chris H."), ("Wednesday", "Jenna Ortega");
+INSERT INTO moviesTable (Name, Actor) VALUES ("Iron Man", "Downey JR"), ("Thor", "Chris H."), ("Wednesday", "Jenna Ortega");
 ```
 
 ## Where Clause & Conditions
@@ -120,7 +120,7 @@ Ex:
 SELECT * FROM MOVIES_TABLE WHERE ACTORS_GENDER = "Male";
 SELECT * FROM MOVIES_TABLE WHERE ACTORS_NETWORTH >= 1500;
 SELECT * FROM MOVIES_TABLE WHERE ACTORS_NETWORTH >= 1500 OR ACTORS_NETWORTH <= 1000;
-// AND, OR can also be used in the MySQL to apply multiple conditions
+/* AND, OR can also be used in the MySQL to apply multiple conditions */
 ```
 
 ## Like Keyword (For Prefix, Suffix Matching)
