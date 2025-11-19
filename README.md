@@ -18,4 +18,4 @@
 
 ## 05. JavaScript
 
-> Markdown Notes: [View](https://github.com/yuvrajshrirame/development-docs/tree/main/javascript "Open JavaScript Notes")
+> JavaScript Notes: [View](https://github.com/yuvrajshrirame/development-docs/tree/main/javascript "Open JavaScript Notes")
