@@ -19,3 +19,7 @@
 ## 05. JavaScript
 
 > JavaScript Notes: [View](https://github.com/yuvrajshrirame/development-docs/tree/main/javascript "Open JavaScript Notes")
+
+## 06. Conventional Git Commit Messages Guide
+
+> Conventional Git Commits Notes: [View](https://github.com/yuvrajshrirame/development-docs/tree/main/conventional-git-commits "Open Conventional Git Commits")
